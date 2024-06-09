@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Beans Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .developer-card {
+            margin-bottom: 30px;
+        }
+        .developer-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .container {
+            flex-grow: 1;
+        }
+        .social-buttons {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #f1f1f1;
+        }
+        .social-buttons a {
+            margin: 0 10px;
+            color: #fff;
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            border-radius: 50%;
+            font-size: 24px;
+            line-height: 50px;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .social-buttons a.facebook { background: #3b5998; }
+        .social-buttons a.twitter { background: #55acee; }
+        .social-buttons a.linkedin { background: #0077b5; }
+        .social-buttons a.instagram { background: #e4405f; }
+        .social-buttons a:hover {
+            transform: scale(1.1);
+        }
+    </style>
+    <link rel="icon" href="../favicon.png" type="image/png"
+    <link href="css/style.css" rel="stylesheet"
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Hot Beans Web
+            <img src="../images/Circle Badge Coffee Beans Cafe Logo.png" alt="Logo" style="height: 50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="whoweare.html">Who We Are</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ourdevelopers.html">Our Developers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="jobspecs.html">Job Specifications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Courses</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="apply.html">Apply</a>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Popular Web Development Courses</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="../images/default-meta-image-v2.png" class="card-img-top" alt="Course Image">
+              <div class="card-body">
+                <h5 class="card-title">The Complete Web Developer Course</h5>
+                <p class="card-text">Learn HTML, CSS, JavaScript, and more to become a full-stack web developer.</p>
+                <a href="https://www.udemy.com/course/the-complete-web-developer-course-2/" class="btn btn-primary" target="_blank">Go to course</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="../images/default-meta-image-v2.png" class="card-img-top" alt="Course Image">
+              <div class="card-body">
+                <h5 class="card-title">JavaScript: The Advanced Concepts</h5>
+                <p class="card-text">Master JavaScript with the most complete course on the market.</p>
+                <a href="https://www.udemy.com/course/advanced-javascript-concepts/" class="btn btn-primary" target="_blank">Go to course</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="../images/1520165186324.jpg" class="card-img-top" alt="Course Image">
+              <div class="card-body">
+                <h5 class="card-title">Responsive Web Design</h5>
+                <p class="card-text">Create websites that look great on any device with this comprehensive guide.</p>
+                <a href="https://www.coursera.org/learn/responsive-web-design" class="btn btn-primary" target="_blank">Go to course</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="../images/1520165186324.jpg" class="card-img-top" alt="Course Image">
+              <div class="card-body">
+                <h5 class="card-title">Full-Stack Web Development with React</h5>
+                <p class="card-text">Learn front-end and hybrid mobile development, with server-side support.</p>
+                <a href="https://www.coursera.org/specializations/full-stack-react" class="btn btn-primary" target="_blank">Go to course</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="../images/default-meta-image-v2.png" class="card-img-top" alt="Course Image">
+              <div class="card-body">
+                <h5 class="card-title">Python and Django Full Stack Web Developer Bootcamp</h5>
+                <p class="card-text">Learn to build websites with HTML, CSS, Bootstrap, Javascript, jQuery, Python 3, and Django!</p>
+                <a href="https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/" class="btn btn-primary" target="_blank">Go to course</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="../images/EdX_newer_logo.svg.png" class="card-img-top" alt="Course Image">
+              <div class="card-body">
+                <h5 class="card-title">Introduction to Web Development</h5>
+                <p class="card-text">Get started as a web developer by learning the basics of HTML, CSS, and JavaScript.</p>
+                <a href="https://www.edx.org/course/introduction-to-web-development" class="btn btn-primary" target="_blank">Go to course</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social-buttons">
+        <a href="https://www.facebook.com" class="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com" class="linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <footer class="bg-light py-4">
+        <div class="container text-center">
+          <p>&copy; 2024 Hot Beans Web. All rights reserved.</p>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
